@@ -6,7 +6,7 @@
 This template is a tool to automate the installation of a basic WordPress site using AWS CloudFormation.
 The template sets up a VPC and all its components, an EC2 instance and uses CHEF to install WordPress on the instance.
 
-Stack Creation walkthrough on AWS
+# Stack creation walkthrough on AWS
 
 Create a KeyPair in the region you want to deploy the stack.
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/GettingStarted.Walkthrough.html
