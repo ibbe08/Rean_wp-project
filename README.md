@@ -1,7 +1,7 @@
-# WordPress Chef Deployment in a VPC 
+# WordPress Chef Deployment in a VPC
 
 
-About
+# ABOUT
 
 This template is a tool to automate the installation of a basic WordPress site using AWS CloudFormation.
 The template sets up a VPC and all its components, an EC2 instance and uses CHEF to install WordPress on the instance.
@@ -9,14 +9,15 @@ The template sets up a VPC and all its components, an EC2 instance and uses CHEF
 Stack Creation walkthrough on AWS
 
 Create a KeyPair in the region you want to deploy the stack.
-https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/GettingStarted.Walkthrough.html See step 2!
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/GettingStarted.Walkthrough.html
+See step 2!
 
-. Choose file to upload your template. Next!
+. Choose file to upload your template. Hit Next!
 
 
 
 . Enter a Stack name and Parameters:
-		. DBpassord-DBUser-KeyPair
+		DBpassord-DBUser-KeyPair
 
 
 
@@ -27,7 +28,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/GettingStarted.Wa
 
 
 
-. Stack Creation process
+. Stack Creation Processing
 
 
 
@@ -53,9 +54,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/GettingStarted.Wa
 
 
 
-Additional Documentation
+# ADDITIONAL DOCUMENTATION
 
-Highly Available and Scalable WordPress on AWS
+# Highly Available and Scalable WordPress on AWS
 
 With AWS you can build a Multi_Tiered Architecture by including:
 
@@ -70,9 +71,9 @@ S3, Route 53 and CloudFront for content delivery network to enhance performance 
 
 CloudWatch to monitor the CPU, network utilization and send system alerts via SNS emails or SMS.
 
-	Security. With AWS security groups and IAM policies to manage user accounts.
+Security. With AWS security groups and IAM policies to manage user accounts.
 
-https://supermarket.chef.io/cookbooks/wordpress - readme
+https://supermarket.chef.io/cookbooks/wordpress-readme
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
 
